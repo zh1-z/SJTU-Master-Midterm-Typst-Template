@@ -17,7 +17,7 @@
 
 1. 登录 [Typst Web App](https://typst.app/)。
 2. 点击 **"Start from template"** 按钮。
-3. 在搜索框输入 `sjtu-doctoral-annual-progress`。
+3. 在搜索框输入 `sjtu-graduate-thesis-proposal`。
 4. 在结果中点击本模板并点击 **"Create"**，系统将自动根据 `main.typ` 初始化工程，您可以直接开始撰写正文。
 
 
