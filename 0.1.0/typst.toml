@@ -1,5 +1,5 @@
 [package]
-name = "sjtu-master-midterm-report"
+name = "std-sjtu-master-midterm-report"
 version = "0.1.0"
 entrypoint = "lib.typ"
 authors = ["zh1-z"]

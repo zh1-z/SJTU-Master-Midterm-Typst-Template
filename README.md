@@ -7,7 +7,7 @@
 **Typst Template**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Typst Package](https://img.shields.io/badge/Typst-Package-239DAD)](https://typst.app/universe/package/sjtu-master-midterm-report)
+[![Typst Package](https://img.shields.io/badge/Typst-Package-239DAD)](https://typst.app/universe/package/std-sjtu-master-midterm-report)
 
 本模板严格依据上海交通大学研究生院官方 [Word 模板](https://www.gs.sjtu.edu.cn/xzzx/pygl) 制作  
 相比传统 LaTeX，Typst 提供 **毫秒级编译速度** 与 **零配置环境**
@@ -49,7 +49,7 @@
 
 1. 访问 [Typst Web App](https://typst.app/) 并登录
 2. 点击 **"Start from template"**
-3. 搜索框输入 `sjtu-master-midterm-report`
+3. 搜索框输入 `std-sjtu-master-midterm-report`
 4. 选择模板并点击 **"Create"** 即可开始编辑
 
 > ⚠️ **字体配置重要提示**：Web App 未预装本地中文字体，需要手动上传字体文件
@@ -91,7 +91,7 @@
 
 1. 按 `Ctrl+Shift+P` (Windows/Linux) 或 `Cmd+Shift+P` (macOS)
 2. 输入并选择：`Typst Init: Initialize a new Typst project`
-3. 在模板库中搜索 `sjtu-master-midterm-report`
+3. 在模板库中搜索 `std-sjtu-master-midterm-report`
 4. 选择模板并指定项目路径，自动创建项目
 
 **选项 B：克隆仓库（灵活）**
@@ -431,11 +431,11 @@ sudo dnf install wqy-microhei-fonts wqy-zenhei-fonts
 
 <div align="center">
 
-| 项目 | 说明 | 链接 |
-|------|------|------|
-| 🎓 开题报告 | 研究生学位论文开题报告 | [GitHub](https://github.com/zh1-z/SJTU-Graduate-Thesis-Proposal-Typst-Template) |
-| 📋 中期检查 | 硕士研究生学位论文中期检查报告 | [GitHub](https://github.com/zh1-z/SJTU-Master-Midterm-Typst-Template) |
-| 📊 年度进展 | 博士研究生学位论文年度进展报告 | [GitHub](https://github.com/zh1-z/SJTU-Doctoral-Annual-Progress-Typst-Template) |
+| 类别 | 模板名称 (Official Standard) | 版本 | 资源链接 |
+| :--- | :--- | :---: | :---: |
+| 🎓 **开题报告** | 上海交通大学研究生学位论文开题报告 | `0.1.0` | [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)](https://github.com/zh1-z/SJTU-Graduate-Thesis-Proposal-Typst-Template) [![Typst](https://img.shields.io/badge/Typst-Universe-239DAD?logo=typst&logoColor=white)](https://typst.app/universe/package/std-sjtu-graduate-thesis-proposal) |
+| 📋 **中期检查** | 上海交通大学硕士研究生学位论文中期检查报告 | `0.1.0` | [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)](https://github.com/zh1-z/SJTU-Master-Midterm-Typst-Template) [![Typst](https://img.shields.io/badge/Typst-Universe-239DAD?logo=typst&logoColor=white)](https://typst.app/universe/package/std-sjtu-master-midterm-report) |
+| 📊 **年度进展** | 上海交通大学博士研究生学位论文年度进展报告 | `0.1.0` | [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)](https://github.com/zh1-z/SJTU-Doctoral-Annual-Progress-Typst-Template) [![Typst](https://img.shields.io/badge/Typst-Universe-239DAD?logo=typst&logoColor=white)](https://typst.app/universe/package/std-sjtu-doctoral-annual-progress) |
 
 </div>
 
@@ -458,11 +458,6 @@ A: Web App 需要手动上传字体文件：
 2. 上传所需的字体文件（参见上方"方式一：Typst Web App"中的字体列表）
 3. 建议上传完整的 Times New Roman 字体族（4个文件）和全部中文字体（4个文件）
 4. 上传后刷新页面即可生效
-
-如果字体仍无法显示，可在代码开头添加：
-```typst
-#set text(font: ("./fonts/times.ttf", "./fonts/simsun.ttf"))
-```
 </details>
 
 <details>
@@ -508,4 +503,3 @@ A: 本模板专为上海交通大学设计，其他学校格式要求可能不�
 **让我们一起让学术写作更加高效！**
 
 </div>
-
