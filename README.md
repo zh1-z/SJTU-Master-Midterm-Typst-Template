@@ -431,11 +431,89 @@ sudo dnf install wqy-microhei-fonts wqy-zenhei-fonts
 
 <div align="center">
 
-| 类别 | 模板名称 (Official Standard) | 版本 | 资源链接 |
-| :--- | :--- | :---: | :---: |
-| 🎓 **开题报告** | 上海交通大学研究生学位论文开题报告 | `0.1.0` | [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)](https://github.com/zh1-z/SJTU-Graduate-Thesis-Proposal-Typst-Template) [![Typst](https://img.shields.io/badge/Typst-Universe-239DAD?logo=typst&logoColor=white)](https://typst.app/universe/package/std-sjtu-graduate-thesis-proposal) |
-| 📋 **中期检查** | 上海交通大学硕士研究生学位论文中期检查报告 | `0.1.0` | [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)](https://github.com/zh1-z/SJTU-Master-Midterm-Typst-Template) [![Typst](https://img.shields.io/badge/Typst-Universe-239DAD?logo=typst&logoColor=white)](https://typst.app/universe/package/std-sjtu-master-midterm-report) |
-| 📊 **年度进展** | 上海交通大学博士研究生学位论文年度进展报告 | `0.1.0` | [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)](https://github.com/zh1-z/SJTU-Doctoral-Annual-Progress-Typst-Template) [![Typst](https://img.shields.io/badge/Typst-Universe-239DAD?logo=typst&logoColor=white)](https://typst.app/universe/package/std-sjtu-doctoral-annual-progress) |
+<table>
+  <thead>
+    <tr>
+      <th align="center">适用对象</th>
+      <th align="center">阶段</th>
+      <th align="center">模板名称<br/>(Official Standard)</th>
+      <th align="center">版本</th>
+      <th align="center">Typst 资源链接<br/>(点击图标跳转)</th>
+      <th align="center">LaTeX 资源链接<br/>(点击图标跳转)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2" align="center">
+        <b>本科生</b><br/>(Bachelor)
+      </td>
+      <td align="center">🎓<br/>开题</td>
+      <td align="center">上海交通大学本科生<br/>毕业设计（论文）开题报告</td>
+      <td align="center"><code>0.1.0</code></td>
+      <td align="center">
+        <a href="https://github.com/zh1-z/SJTU-Bachelor-Thesis-Proposal-Typst-Template"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub"></a><br/>
+        <a href="https://typst.app/universe/package/std-sjtu-bachelor-thesis-proposal"><img src="https://img.shields.io/badge/Typst-Universe-239DAD?logo=typst&logoColor=white" alt="Typst"></a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/zh1-z/SJTU-Bachelor-Thesis-Proposal-Latex-Template"><img src="https://img.shields.io/badge/GitHub-Repo-47A141?logo=github" alt="GitHub"></a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">📋<br/>中期</td>
+      <td align="center">上海交通大学本科生<br/>毕业设计（论文）中期检查报告</td>
+      <td align="center"><code>0.1.0</code></td>
+      <td align="center">
+        <a href="https://github.com/zh1-z/SJTU-Bachelor-Thesis-Midterm-Typst-Template"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub"></a><br/>
+        <a href="https://typst.app/universe/package/std-sjtu-bachelor-midterm-report"><img src="https://img.shields.io/badge/Typst-Universe-239DAD?logo=typst&logoColor=white" alt="Typst"></a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/zh1-z/SJTU-Bachelor-Thesis-Midterm-Latex-Template"><img src="https://img.shields.io/badge/GitHub-Repo-47A141?logo=github" alt="GitHub"></a>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="3" align="center">
+        <b>研究生</b><br/>(Graduate)<br/>
+        <hr style="margin: 8px 0; border: none; border-top: 1px solid #dfe2e5;"/>
+        硕士<br/>(Master)<br/>
+        博士<br/>(Doctoral)
+      </td>
+      <td align="center">🎓<br/>开题</td>
+      <td align="center">上海交通大学研究生<br/>学位论文开题报告</td>
+      <td align="center"><code>0.1.0</code></td>
+      <td align="center">
+        <a href="https://github.com/zh1-z/SJTU-Graduate-Thesis-Proposal-Typst-Template"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub"></a><br/>
+        <a href="https://typst.app/universe/package/std-sjtu-graduate-thesis-proposal"><img src="https://img.shields.io/badge/Typst-Universe-239DAD?logo=typst&logoColor=white" alt="Typst"></a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/NemoYuan2008/SJTU-Thesis-Proposal"><img src="https://img.shields.io/badge/GitHub-Repo-47A141?logo=github" alt="GitHub"></a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">📋<br/>中期</td>
+      <td align="center">上海交通大学硕士研究生<br/>学位论文中期检查报告</td>
+      <td align="center"><code>0.1.0</code></td>
+      <td align="center">
+        <a href="https://github.com/zh1-z/SJTU-Master-Midterm-Typst-Template"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub"></a><br/>
+        <a href="https://typst.app/universe/package/std-sjtu-master-midterm-report"><img src="https://img.shields.io/badge/Typst-Universe-239DAD?logo=typst&logoColor=white" alt="Typst"></a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/NemoYuan2008/SJTU-Thesis-Proposal"><img src="https://img.shields.io/badge/GitHub-Repo-47A141?logo=github" alt="GitHub"></a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">📊<br/>年度</td>
+      <td align="center">上海交通大学博士研究生<br/>学位论文年度进展报告</td>
+      <td align="center"><code>0.1.0</code></td>
+      <td align="center">
+        <a href="https://github.com/zh1-z/SJTU-Doctoral-Annual-Progress-Typst-Template"><img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub"></a><br/>
+        <a href="https://typst.app/universe/package/std-sjtu-doctoral-annual-progress"><img src="https://img.shields.io/badge/Typst-Universe-239DAD?logo=typst&logoColor=white" alt="Typst"></a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/NemoYuan2008/SJTU-Thesis-Proposal"><img src="https://img.shields.io/badge/GitHub-Repo-47A141?logo=github" alt="GitHub"></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 </div>
 
@@ -503,3 +581,4 @@ A: 本模板专为上海交通大学设计，其他学校格式要求可能不�
 **让我们一起让学术写作更加高效！**
 
 </div>
+
